@@ -5,10 +5,13 @@ ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;}
+html, body{
+  overflow-x: hidden;
+
+}
 
 li {
   list-style: none;
@@ -18,46 +21,62 @@ a {
   text-decoration: none;
 }
 
-.top-wrapper {
-  padding: 180px 0 100px 0;
+section{
   min-height: 100vh;
-  background-image: url(https://kabupatenlestari.org/assets/upload/image/berita.jpg);
-  background-size: cover;
-  color: white;
-  text-align: center;
+  padding:1rem 10%;
+  padding-top: 9.5rem;
+  background-color:#fdfdfd;
 }
 
-.container {
-  width: 1170px;
-  margin: 0 auto;
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: url(../B19-main/image/home.png) no-repeat;
+  background-size: cover;
+}
+
+.home .image{
+  flex:1 1 38rem;
+  height:50rem;
+  background:url(../B19-main/image/food1.png) no-repeat;
+  background-position: center;
+  background-blend-mode: screen;
+}
+
+.top-wrapper {
+  flex:1 1 40rem;
+  padding:2.3rem;
+}
+
+.top-wrapper p {
+  font-size: 1.6rem;
+  color:#666;
 }
 
 .top-wrapper h1 {
   opacity: 0.8;
-  letter-spacing: 5px;
-  font-size: 45px;
+  font-size: 4rem;
   margin-bottom: 10px;
-}
-
-.top-wrapper p {
-  opacity: 0.8;
-  margin-bottom: 3px;
 }
 
 
 /*Header*/
 header {
-  height: 60px;
   width: 100%;
+  top:0; left:0;
   background-color: #fff;
+  padding:1.5rem;
   position: fixed;
   z-index: 999;
-  padding-top: 0;
-  opacity: 50%;
+  opacity: 80%;
+  justify-content: space-between;
+  cursor: pointer;
 }
 .header-left {
   float: left;
-  padding-left: 5px;
+  padding-left: 20px;
   padding-top: 30px;
   padding-bottom: 20px;
   font-weight: bolder;
@@ -67,15 +86,15 @@ header {
 }
 
 .logo span {
-  color: #f0a70b;
+  color: #F59C24;
 }
 
 .header-right {
   float: right;
   background-color: #fff;
-  transition: all 0.5s;
   overflow: hidden;
-  font-size: 1em;
+  font-size: 1.7rem;
+  margin-right: 3rem;
 }
 
 .header-right a:hover {
@@ -95,37 +114,75 @@ header {
 
 /*FOOTER*/
 footer {
-  height: 120px;
-  width: 100%;
-  background-color: rgba(185, 182, 182, 0.9);
-  padding-bottom: 0;
-  padding-top: 20px;
-  color: rgb(7, 7, 7);
+  background-color:#fdfdfd;
+  padding: 10px;
+  color: #333;
   opacity: 90%;
-  padding-left: 0%;
 }
 
-.footer-content {
-  float: left;
-  width: 28%;
-  padding-left: 5%;
+.input-group input[type=email], .input-group-btn button{
+  font-size: 16px;
+  color:#333;
+  font-weight: 600;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: none;
+  cursor: pointer;
+  border:.16rem solid #F8E4EB;
+
+}
+
+.input-group-btn button{
+  background-color: #F59C24;  
+  border-radius: none;
+}
+
+.input-group-btn button:hover{
+  background-color: #fdfdfd;  
+  border:.2rem solid #F59C24;
+}
+
+footer .credit{
+  font-size: 1.6rem;
+  text-align: center;
+  padding:0.2rem;
+  font-weight: 400;
+  letter-spacing: .1rem;
+  color:#333;
+}
+
+.team{
+  background-color: #FEFAF1;
+}
+
+.team .footer-box{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-box .footer-content{
+  flex:1 1 25rem;
+  margin:2rem;
 }
 
 .footer-content li {
   list-style: none;
+  padding-top:1rem;
+
 }
+
 
 .footer-content p {
   display: inline-block;
   text-align: justify;
+  padding:1rem 0;
 }
 
-.footer-content li {
-  list-style: none;
-}
 
 .btn-playstore img {
-  margin: 30px auto;
+  height: 50px;
+  padding-top: 1%;
   display: block;
 }
 /*Footer End*/
