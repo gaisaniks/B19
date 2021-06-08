@@ -33,14 +33,14 @@ section{
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background: url(https://github.com/gaisaniks/B19/blob/main/image/home.png) no-repeat;
+  background: url(https://raw.githubusercontent.com/gaisaniks/B19/main/image/home.png) no-repeat;
   background-size: cover;
 }
 
 .home .image{
   flex:1 1 38rem;
   height:50rem;
-  background:url(https://github.com/gaisaniks/B19/blob/main/image/food1.png) no-repeat;
+  background:url(https://raw.githubusercontent.com/gaisaniks/B19/main/image/food1.png) no-repeat;
   background-position: center;
   background-blend-mode: screen;
 }
