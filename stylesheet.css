@@ -67,7 +67,7 @@ header {
   width: 100%;
   top:0; left:0;
   background-color: #fff;
-  padding:1.5rem;
+  padding:1rem;
   position: fixed;
   z-index: 999;
   opacity: 80%;
@@ -80,7 +80,7 @@ header {
   padding-top: 30px;
   padding-bottom: 20px;
   font-weight: bolder;
-  font-size: 2em;
+  font-size: 1.6rem;
   overflow: hidden;
   line-height: 0px;
 }
@@ -93,7 +93,7 @@ header {
   float: right;
   background-color: #fff;
   overflow: hidden;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   margin-right: 3rem;
 }
 
