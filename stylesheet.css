@@ -125,8 +125,7 @@ footer {
 }
 
 .btn-playstore img {
-  height: 50px;
-  width: 50%;
-  padding-top: 5%;
+  margin: 30px auto;
+  display: block;
 }
 /*Footer End*/
