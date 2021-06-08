@@ -1,3 +1,22 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(https://i.pinimg.com/564x/be/e5/ef/bee5ef3b05488e2767c933a67c60da0f.jpg);
