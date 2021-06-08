@@ -20,6 +20,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
+  min-height: 100vh;
   background-image: url(https://kabupatenlestari.org/assets/upload/image/berita.jpg);
   background-size: cover;
   color: white;
