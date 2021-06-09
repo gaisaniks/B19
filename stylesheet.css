@@ -2,7 +2,7 @@
 
 html, body,
 ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div, button{
+h1, h2, h3, h4, h5, h6, p, div, button {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
@@ -28,7 +28,6 @@ section{
   background-color:#fdfdfd;
 }
 
-/* Home Start */
 .home{
   display: flex;
   align-items: center;
@@ -45,6 +44,8 @@ section{
 .home .image img{
   width:100%;
 }
+
+
 
 .top-wrapper {
   flex:1 1 40rem;
@@ -64,25 +65,23 @@ section{
   margin-bottom: 10px;
 }
 
-button.btn-home {
-    display: inline-block;
-    font-size: 1.2rem;
-    margin: 0 auto;
-    padding: 8px 16px;
-    background: #F59C24;
-    color: #fdfdfd;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
-    border: none;
-    border-radius: 40px;
+.btn-home{
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 8px 16px;
+  background: #F59C24;
+  color: #fdfdfd;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border: none;
+  border-radius: 40px;
 }
 
-button .btn-home:hover{
+.btn-home:hover{
   transform: scale(1.1);
 }
-
-/* Home End */
 
 
 /*Header*/
@@ -135,7 +134,7 @@ header {
 }
 /*Header End*/
 
-/*Footer Start */
+/*FOOTER*/
 footer {
   background-color:#fdfdfd;
   padding: 10px;
