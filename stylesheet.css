@@ -24,7 +24,7 @@ a {
 section{
   min-height: 100vh;
   padding:1rem 10%;
-  padding-top: 9.5rem;
+  padding-top: 5.5rem;
   background-color:#fdfdfd;
 }
 
@@ -38,11 +38,11 @@ section{
 }
 
 .home .image{
-  flex:1 1 38rem;
-  height:50rem;
-  background:url(../B19/image/food1.png) no-repeat;
-  background-position: center;
-  background-blend-mode: screen;
+  flex:1 1 20rem;
+}
+
+.home .image img{
+  width:100%;
 }
 
 .top-wrapper {
@@ -57,7 +57,7 @@ section{
 
 .top-wrapper h1 {
   opacity: 0.8;
-  font-size: 4rem;
+  font-size: 4em;
   margin-bottom: 10px;
 }
 
@@ -80,7 +80,7 @@ header {
   padding-top: 30px;
   padding-bottom: 20px;
   font-weight: bolder;
-  font-size: 2em;
+  font-size: 1.2rem;
   overflow: hidden;
   line-height: 0px;
 }
@@ -93,7 +93,7 @@ header {
   float: right;
   background-color: #fff;
   overflow: hidden;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   margin-right: 3rem;
 }
 
@@ -158,7 +158,6 @@ footer .credit{
 
 .team .footer-box{
   display: flex;
-  flex-wrap: wrap;
 }
 
 .footer-box .footer-content{
