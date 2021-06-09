@@ -61,6 +61,25 @@ section{
   font-size: 3em;
   margin-bottom: 10px;
 }
+
+.btn-home{
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 8px 16px;
+  background: #F59C24;
+  color: #fdfdfd;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border: none;
+  border-radius: 40px;
+}
+
+.btn-home:hover{
+  transform: scale(1.0);
+}
+
 /* Home End */
 
 
