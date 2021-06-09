@@ -124,6 +124,10 @@ header {
   background-color: rgba(84, 85, 84, 0.2);
 }
 
+.header-right #bar{
+  display: none;
+}
+
 .header-right a {
   float: left;
   display: block;
