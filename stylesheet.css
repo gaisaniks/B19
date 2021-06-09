@@ -54,6 +54,8 @@ section{
 .top-wrapper p {
   font-size: 1.12rem;
   color:#666;
+  margin-bottom: 20px;
+
 }
 
 .top-wrapper h1 {
@@ -77,7 +79,7 @@ section{
 }
 
 .btn-home:hover{
-  transform: scale(1.0);
+  transform: scale(1.1);
 }
 
 /* Home End */
