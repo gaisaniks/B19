@@ -151,7 +151,6 @@ header {
   padding:0.5rem;
   position: fixed;
   z-index: 999;
-  opacity: 80%;
   justify-content: space-between;
   cursor: pointer;
 }
