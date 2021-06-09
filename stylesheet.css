@@ -134,7 +134,7 @@ header {
   font-size: 1em;
 }
 
-span.menu-icon {
+.menu-icon span {
   color: black;
   float: right;
   font-size: 25px;
