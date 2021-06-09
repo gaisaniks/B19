@@ -12,11 +12,23 @@
     .header-right #bar{
         display: block;      
     }
+  
+   .about .column {
+        width: 100%;
+    }
       
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  .home .image{
+      flex: 0 1 38rem;
+  }
+
+  .home .image img{
+      width:100%;
+  }
+
   .header-right .nav{
     display: none;
   }
