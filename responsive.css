@@ -11,6 +11,9 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  .team .footer-box{
+    flex-wrap: wrap;
+  }
 /*
   .header-right {
     display: none;
