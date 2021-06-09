@@ -191,7 +191,11 @@ footer .credit{
 .footer-content li {
   list-style: none;
   padding-top:1rem;
+}
 
+.footer-content li a:hover {
+  cursor: pointer;
+  color: #F59C24;
 }
 
 
