@@ -2,7 +2,7 @@
 
 html, body,
 ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
+h1, h2, h3, h4, h5, h6, p, div, button{
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
@@ -133,7 +133,7 @@ header {
 }
 /*Header End*/
 
-/*F ooter Start */
+/*Footer Start */
 footer {
   background-color:#fdfdfd;
   padding: 10px;
