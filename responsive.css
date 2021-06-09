@@ -4,9 +4,15 @@
         font-size: 55%;
     }
 
-    .header-right{
+    
+    .header-right .nav{
         display: none;
     }
+
+    .header-right #bar{
+        display: block;      
+    }
+      
 }
 
 /* Untuk Smartphone */
