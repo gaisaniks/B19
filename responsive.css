@@ -11,6 +11,14 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon span {
+    display: block;
+  }
+  
   .team .footer-box{
     flex-wrap: wrap;
   }
