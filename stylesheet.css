@@ -28,6 +28,7 @@ section{
   background-color:#fdfdfd;
 }
 
+/* Home Start */
 .home{
   display: flex;
   align-items: center;
@@ -51,15 +52,16 @@ section{
 }
 
 .top-wrapper p {
-  font-size: 1.6rem;
+  font-size: 1.12rem;
   color:#666;
 }
 
 .top-wrapper h1 {
   opacity: 0.8;
-  font-size: 4em;
+  font-size: 3em;
   margin-bottom: 10px;
 }
+/* Home End */
 
 
 /*Header*/
@@ -67,7 +69,7 @@ header {
   width: 100%;
   top:0; left:0;
   background-color: #fff;
-  padding:1rem;
+  padding:0.5rem;
   position: fixed;
   z-index: 999;
   opacity: 80%;
@@ -112,7 +114,7 @@ header {
 }
 /*Header End*/
 
-/*FOOTER*/
+/*F ooter Start */
 footer {
   background-color:#fdfdfd;
   padding: 10px;
@@ -121,7 +123,7 @@ footer {
 }
 
 .input-group input[type=email], .input-group-btn button{
-  font-size: 16px;
+  font-size: 14px;
   color:#333;
   font-weight: 600;
   padding: 8px 10px;
@@ -144,7 +146,7 @@ footer {
 }
 
 footer .credit{
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   text-align: center;
   padding:0.2rem;
   font-weight: 400;
@@ -158,11 +160,12 @@ footer .credit{
 
 .team .footer-box{
   display: flex;
+
 }
 
-.footer-box .footer-content{
-  flex:1 1 25rem;
+.team .footer-box .footer-content{
   margin:2rem;
+  flex:1 1 25rem;
 }
 
 .footer-content li {
