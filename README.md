@@ -4,9 +4,9 @@
 Tujuan dari proyek ini adalah untuk membuat halaman web tentang masakan Indonesia.
 
 ## Komponen Halaman Web
-i. Header
-ii. Bagian Main
-iii. Bagian Body
-iv. Footer
-v. Setidaknya satu animasi
-vi. Desain responsif untuk smartphone dan tablet
+####  Header
+#### Bagian Main
+#### Bagian Body
+#### Footer
+#### Setidaknya satu animasi
+#### Desain responsif untuk smartphone dan tablet
