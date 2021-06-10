@@ -143,6 +143,10 @@ section{
 /* About End*/
 
 /* Menu */
+.menu{
+  background-size: cover;
+}
+
 .menu .title h1{
   font-size: 2em;
   font-weight: 600;
