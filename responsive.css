@@ -4,14 +4,6 @@
         font-size: 55%;
     }
 
-    
-    .header-right .nav{
-        display: none;
-    }
-
-    .header-right #bar{
-        display: block;      
-    }
   .home .image{
       flex: 0 1 38rem;
   }
@@ -32,16 +24,37 @@
 @media all and (max-width: 670px) {
   
   .header-right .nav{
-    display: none;
-  }
-  
-  .header-right #bar{
-    display: block;
-  }
-  
-  span .menu-icon {
-    display: block;
-  }
+        position: fixed;
+        top:8rem; left:0;
+        width:100%;
+        background:#F59C24;
+        transform:scaleY(0);
+        transform-origin: top;
+        opacity: 0;
+    }
+
+    .header-right #bar{
+        display: block;      
+    }
+
+    .fa-times{
+        transform:rotate(180deg);
+    }
+
+    .header-right .nav.nav-toggle {
+        transform:scaleY(1);
+        opacity: 1;
+    }
+
+    .header-right .nav a {
+        margin:1em;
+        flex-flow: column;       
+        width: 100%;
+        display: block;
+        color:#fdfdfd;
+        padding-left: 2rem;
+        font-size: 1.2em;
+    }
   
   .team .footer-box{
     flex-wrap: wrap;
