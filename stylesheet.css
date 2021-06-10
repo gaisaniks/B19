@@ -142,6 +142,15 @@ section{
 }
 /* About End*/
 
+/* Menu */
+.menu .title h1{
+  font-size: 2em;
+  font-weight: 600;
+  color: #F59C24;
+}
+
+/* Menu End*/
+
 
 /*Header*/
 header {
