@@ -23,7 +23,9 @@
    .about .column {
         width: 100%;
     }
-      
+    .main-wrapper .content .content-item{
+        display: contents;
+      }
 }
 
 /* Untuk Smartphone */
@@ -43,5 +45,8 @@
   
   .team .footer-box{
     flex-wrap: wrap;
+  }
+  .main-wrapper .content .content-item{
+    display: contents;
   }
 }
