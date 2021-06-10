@@ -204,6 +204,52 @@ span .menu-icon {
 }
 /*Header End*/
 
+/*Section*/
+.main-wrapper {
+    margin:auto;
+    position: relative;
+    box-sizing:content-box;
+  }
+  .content{
+    display:grid;
+    grid-template-columns: 50% auto;
+    padding: 1em 1em;
+    margin: auto;
+  }
+  .content-item{
+    float: left;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  .content-item img{
+    width: 80%;
+    position: relative;
+    margin-left: 25px;
+    margin-right: auto;
+  }
+  .text{
+    margin:auto 20px;
+  }
+  .content-item .text p{
+    margin-bottom: 25px;
+    text-align: justify;
+  }
+  .text h2{
+    margin-bottom: 15px;
+  }
+  hr{
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+    opacity: 20%;
+  }
+  
+  /*End Section*
+
 /*FOOTER*/
 footer {
   background-color:#fdfdfd;
